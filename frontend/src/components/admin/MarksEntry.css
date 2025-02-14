@@ -1,0 +1,42 @@
+.first{
+    background-color: brown;
+    border: 2px solid black;
+}
+
+.heading{
+    display: flex;
+    gap: 100px;
+    background-color: brown;
+
+
+}
+h3{
+    background-color: brown;
+}
+select{
+    background-color: brown;
+}
+table{
+    width: 100%;
+    background-color: brown;
+    color: black;
+}
+input{
+    color: black;
+}
+select{
+    color: black;
+    background-color: blanchedalmond;
+}
+option{
+    background-color: yellowgreen;
+}
+option:hover{
+    background-color: violet;
+}
+table,th,td{
+    border: 3px solid black;
+}
+.component,select{
+    margin:20px;
+}

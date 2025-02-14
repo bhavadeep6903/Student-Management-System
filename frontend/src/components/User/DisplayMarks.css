@@ -1,0 +1,25 @@
+.name{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    justify-content: center;
+
+}
+.details{
+    display: flex;
+    gap: 50px;
+}
+table{
+    background: black;
+    border-collapse: collapse;
+}
+*{
+    background-color: skyblue;
+    color: black;
+}
+p{
+    color: black;
+}
+button{
+    background-color: white;
+}

@@ -1,0 +1,62 @@
+/* Remove unwanted global background color */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the container */
+.component {
+    padding: 2rem;
+    background-color: #f0f8ff;
+}
+
+/* Styling for the name class and centered content */
+.name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 10px 0;
+}
+
+select,
+button {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    background-color: white;
+    font-size: 14px;
+    color: black;
+    border-radius: 5px;
+}
+
+button {
+    background-color: lightblue;
+    cursor: pointer;
+    border: 1px solid #ccc;
+}
+
+button:hover {
+    background-color: darkblue;
+    color: white;
+}
+
+table {
+    width: 80%;
+    margin: 1rem auto;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid black;
+}
+
+thead {
+    background-color: black;
+    color: white;
+}
+
